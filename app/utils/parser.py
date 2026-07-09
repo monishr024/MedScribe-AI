@@ -49,6 +49,16 @@ class ResponseParser:
             data = json.loads(cleaned)
 
             # =====================================================
+            # Handle alternate field names returned by Gemini
+            # =====================================================
+
+            if "chief_complaint" not in data and "clinical_complaint" in data:
+                data["chief_complaint"] = data["clinical_complaint"]
+
+            if "history_present_illness" not in data and "history_of_present_illness" in data:
+                data["history_present_illness"] = data["history_of_present_illness"]
+
+            # =====================================================
             # Validate Required Fields
             # =====================================================
 

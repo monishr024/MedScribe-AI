@@ -288,4 +288,25 @@ Whenever sufficient patient information exists, populate:
 Provide clinically meaningful recommendations based solely on the supplied information.
 
 Avoid returning empty arrays unnecessarily.
+
+IMPORTANT:
+
+Return ONLY valid JSON.
+
+Use EXACTLY these keys.
+
+patient_summary
+clinical_summary
+chief_complaint
+history_present_illness
+clinical_assessment
+differential_diagnosis
+recommended_lab_tests
+recommended_imaging
+red_flags
+treatment_considerations
+follow_up
+
+Do NOT rename any key.
+Do NOT use synonyms like "clinical_complaint".
 """
