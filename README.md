@@ -90,7 +90,9 @@ Patient Information
 
 ## Home Page
 
-> *(Add screenshot here)*
+> ## 🏠 Home Page
+
+![Home Page](screenshots/home.png)
 
 ```
 screenshots/home.png
@@ -100,7 +102,9 @@ screenshots/home.png
 
 ## Patient Analysis Form
 
-> *(Add screenshot here)*
+> ## 🩺 Patient Analysis
+
+![Analysis](screenshots/analysis.png)
 
 ```
 screenshots/analysis.png
@@ -110,7 +114,9 @@ screenshots/analysis.png
 
 ## AI Clinical Report
 
-> *(Add screenshot here)*
+> ## 📋 AI Clinical Report
+
+![Clinical Report](screenshots/report.png)
 
 ```
 screenshots/report.png
@@ -120,7 +126,9 @@ screenshots/report.png
 
 ## PDF Report
 
-> *(Add screenshot here)*
+>## 📄 PDF Report
+
+![PDF](screenshots/pdf.png)
 
 ```
 screenshots/pdf.png
