@@ -1,0 +1,25 @@
+<label class="selection-card">
+
+    <input
+
+        type="radio"
+
+        name="{{ name }}"
+
+        value="{{ value }}"
+
+        {% if required %}
+        required
+        {% endif %}
+
+    >
+
+    <i class="fa-solid {{ icon }}"></i>
+
+    <span>
+
+        {{ value }}
+
+    </span>
+
+</label>

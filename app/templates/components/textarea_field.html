@@ -1,0 +1,31 @@
+<div class="mb-4">
+
+    <label class="form-label">
+
+        {{ label }}
+
+        {% if required %}
+        <span class="text-danger">*</span>
+        {% endif %}
+
+    </label>
+
+    <textarea
+
+        rows="{{ rows }}"
+
+        class="form-control"
+
+        id="{{ id }}"
+
+        name="{{ name }}"
+
+        placeholder="{{ placeholder }}"
+
+        {% if required %}
+        required
+        {% endif %}
+
+    ></textarea>
+
+</div>

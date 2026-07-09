@@ -1,0 +1,12 @@
+pandas
+numpy
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Flask-migrate
+python-dotenv
+requests
+google-genai
+reportlab
+gunicorn
+pdfkit

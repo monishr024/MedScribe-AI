@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated PDFs
+*.pdf
+
+# Logs
+*.log
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+
+# Flask
+instance/
+
+# Build
+dist/
+build/
